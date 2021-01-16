@@ -30,10 +30,1197 @@
   <body style="background-color: rgb(17 17 17)">
     <audio src="/my-example-site/bg-music/bg-music2.mp3" autoplay></audio>
 
+    <code >
+
     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label"
-        >Email address</label
-      >
+      <label for="exampleFormControlInput1" class="form-label text-light"
+        > 
+
+        <xmp>
+
+        <!DOCTYPE html>
+        
+        <html xmlns="http://www.w3.org/1999/xhtml">
+        <head><title>
+          WELCOME TO DAV Public School, Police Lines, Jagadhri
+        </title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link href="/Content/bootstrap-theme.css" rel="stylesheet" type="text/css" /><link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" /><link href="/Style/jquery-ui-1.10.0.custom.min.css" rel="stylesheet" type="text/css" /><link href="/Content/jquery.fs.naver.css" rel="stylesheet" type="text/css" /><link href="Style/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" /><link href="/Style/Dav.css" rel="stylesheet" type="text/css" />
+            
+           
+          
+        
+           <script src="/Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+           <script src="/Scripts/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
+           <script src="/Scripts/html5shiv.js" type="text/javascript"></script>
+           <script src="/Content/bootstrap.min.js" type="text/javascript"></script>
+               <script src="/Scripts/selectnav.min.js" type="text/javascript"></script>
+             <script src="/Scripts/jquery.slidertron-1.2.js" type="text/javascript"></script>
+           <script src="Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="/Scripts/White/endless_scroll_min.js" type="text/javascript"></script>
+           
+            <script>
+                jQuery(document).ready(function () {
+                    jQuery('#Menu1').css('float', 'none');
+                    jQuery('#Menu1 >ul').attr('id', 'prithu');
+                   // jQuery('.fancybox').fancybox();
+                    jQuery('.selectnav').addClass('form-control');
+                    selectnav('prithu');
+                    jQuery('#ddlmagzine').change(function () {
+                        if (jQuery('#ddlmagzine').val() == 0) {
+                            return false;
+                        }
+                        else {
+                            window.location = "Online-Magazine?mz=" + jQuery('#ddlmagzine').val();
+                        }
+        
+                    });
+        
+                    $.mCustomScrollbar.defaults.theme = "light-4"; //set "light-2" as the default theme
+                    $('.demo-x').mCustomScrollbar({
+                        axis: "x",
+                       // theme: "3d",
+                        advanced: { autoExpandHorizontalScroll: true }
+                    });
+                    $('.scroll').mCustomScrollbar();
+        
+        
+        
+                    var miClass = ['box1', 'box2'];
+                    var i = 0;
+                    $('.Top-Bg-Menu li').each(function () {
+                        $(this).addClass(miClass[i]);
+                        i = (i + 1) % miClass.length;
+                    });
+        
+        
+                    jQuery('.DavFooterMenu').click(function () {
+                        var link = $(this);
+                        jQuery('.davFooterMenuList').slideToggle('slow', function () {
+                            if ($(this).is(":visible")) {
+                            
+                                link.text('Less (-)');
+                                jQuery('.bottom-header-bar').css('margin-bottom', '0');
+                            }
+                            else
+                            {
+                                link.text('More (+)');
+                                jQuery('.bottom-header-bar').css('margin-bottom', '42px');
+                            }
+                        });
+                    })
+                });
+        
+                $(window).load(function () {
+                    $(".infiniteCarousel").endlessScroll({ width: '100%', height: '100px', steps: -2, speed: 40, mousestop: true });
+                });
+        
+                jQuery(document).ready(function () {
+                    $('#TDM').modal('show');
+                });
+            </script>
+            <script src="/Scripts/Custome.js" type="text/javascript"></script>
+        
+        <meta /><meta /><style type="text/css">
+          /* <![CDATA[ */
+          #Menu1 img.icon { border-style:none;vertical-align:middle; }
+          #Menu1 img.separator { border-style:none;display:block; }
+          #Menu1 img.horizontal-separator { border-style:none;vertical-align:middle; }
+          #Menu1 ul { list-style:none;margin:0;padding:0;width:auto; }
+          #Menu1 ul.dynamic { z-index:1; }
+          #Menu1 a { text-decoration:none;white-space:nowrap;display:block; }
+          #Menu1 a.static { padding-left:0.15em;padding-right:0.15em; }
+          #Menu1 a.popout-dynamic { background:url("/WebResource.axd?d=gfL03Bb7BHdrlQOYQ6T5rqYoKUDKKN6furDbt_R-7CReXMBwNbBd1jHhm7WEOUFbxWaDwO9HlbGyMfht27MORx0quTLoDAnbG48WkNs1JeI1&t=637346523180000000") no-repeat right center;padding-right:14px; }
+          /* ]]> */
+        </style></head>
+        <body>
+            <a href="#" class="scrollToTop"><i class="glyphicon glyphicon-circle-arrow-up"></i></a>
+                      
+            
+              
+        
+            <form method="post" action="./" id="form1">
+        <div class="aspNetHidden">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODE0OTcxNDcwD2QWAgIDD2QWLAIBD2QWBAIBDxYCHgtfIUl0ZW1Db3VudAIGFgwCAQ9kFgJmDxUCSmh0dHA6Ly9kYXZjbWMubmV0LmluLzkwQTA3MkZELUNCRDgtNDA4MS05QkE2LURFMUI4QTRBOEE1OS9DTVMvUGFnZS9EQVYtQ01DDEFCT1VUIERBVkNNQ2QCAg9kFgJmDxUCFGh0dHA6Ly9hcHBzYWJoYS5vcmcvCkFSWUEgU0FNQUpkAgMPZBYCZg8VAlVodHRwOi8vZGF2Y21jLm5ldC5pbi85MDJDQUQzNi00Mjc2LTQ2QTgtOTk4Ny02OTZEQ0Y0MEIwRkIvQ01TL1BhZ2UvUHJlc2lkZW50cy1NZXNzYWdlFVBSRVNJREVOVOKAmXMgTUVTU0FHRWQCBA9kFgJmDxUCKGh0dHA6Ly93d3cueW91dHViZS5jb20vdXNlci9EQVZDTUNWSURFT1MNREFWQ01DIFZJREVPU2QCBQ9kFgJmDxUCImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9kYXZ1bml0ZWQGQUxVTU5JZAIGD2QWAmYPFQIiaHR0cDovL2RhdnNvY2lhbGFwcC5taXZjbGllbnQub3JnLxdEQVZDTUMgSU5URUxMRUNUVUFMIEhVQmQCAw8QDxYGHg1EYXRhVGV4dEZpZWxkBQlNZW51X05hbWUeDkRhdGFWYWx1ZUZpZWxkBQlNZW51X0xpbmseC18hRGF0YUJvdW5kZ2QPFgYCAQICAgMCBAIFAgYWBhAFDEFCT1VUIERBVkNNQwVKaHR0cDovL2RhdmNtYy5uZXQuaW4vOTBBMDcyRkQtQ0JEOC00MDgxLTlCQTYtREUxQjhBNEE4QTU5L0NNUy9QYWdlL0RBVi1DTUNnEAUKQVJZQSBTQU1BSgUUaHR0cDovL2FwcHNhYmhhLm9yZy9nEAUVUFJFU0lERU5U4oCZcyBNRVNTQUdFBVVodHRwOi8vZGF2Y21jLm5ldC5pbi85MDJDQUQzNi00Mjc2LTQ2QTgtOTk4Ny02OTZEQ0Y0MEIwRkIvQ01TL1BhZ2UvUHJlc2lkZW50cy1NZXNzYWdlZxAFDURBVkNNQyBWSURFT1MFKGh0dHA6Ly93d3cueW91dHViZS5jb20vdXNlci9EQVZDTUNWSURFT1NnEAUGQUxVTU5JBSJodHRwczovL3d3dy5mYWNlYm9vay5jb20vZGF2dW5pdGVkZxAFF0RBVkNNQyBJTlRFTExFQ1RVQUwgSFVCBSJodHRwOi8vZGF2c29jaWFsYXBwLm1pdmNsaWVudC5vcmcvZ2RkAgMPZBYCAgEPDxYCHghJbWFnZVVybGVkZAIFDw8WBB4IQ3NzQ2xhc3MFCWNvbC1sZy0xMB4EXyFTQgICZBYEAgEPDxYCHgRUZXh0BRtEQVYgUFVCTElDIFNDSE9PTCwgS1VTTVVOREFkZAIDDxYCHglpbm5lcmh0bWwFGktvcmJhLCBDaGhhdHRpc2dhcmgtNDk1NDU0ZAIHDw8WAh4HVmlzaWJsZWhkZAIJD2QWAgIBDzwrAA0BDBQrAAwFLDA6MCwwOjEsMDoyLDA6MywwOjQsMDo1LDA6NiwwOjcsMDo4LDA6OSwwOjEwFCsAAhYIHwcFBEhPTUUeBVZhbHVlBSRlOWUwZDE3OC0zMTc5LTQ5N2UtODU4Ny03ZDJhZTFlN2RkZDIeC05hdmlnYXRlVXJsBQEvHgZUYXJnZXQFBV9zZWxmZBQrAAIWCB8HBQhBQk9VVCBVUx8KBSQzNjA2NDU4ZC1mNDA1LTQ4OTMtYjZjMi03ZDJkNDNjNDQyMDIfCwUSamF2YVNjcmlwdDp2b2lkKCk7HwwFBV9zZWxmFCsABgUTMDowLDA6MSwwOjIsMDozLDA6NBQrAAIWCB8HBQxBYm91dCBTY2hvb2wfCgUkYTQ4MDQwYjktNjc0ZS00YjhkLTg5NmQtMDE4MzMxNjY1NmY4HwsFOy9BNDgwNDBCOS02NzRFLTRCOEQtODk2RC0wMTgzMzE2NjU2RjgvQ01TL1BhZ2UvQWJvdXQtU2Nob29sHwwFBV9zZWxmZBQrAAIWCB8HBRVQcmluY2lwYWzigJlzIE1lc3NhZ2UfCgUkMDE5NjhjMjYtODc5Ni00ODMwLTkzN2YtZTA2ZDkzOTAzN2IxHwsFRC8wMTk2OEMyNi04Nzk2LTQ4MzAtOTM3Ri1FMDZEOTM5MDM3QjEvQ01TL1BhZ2UvUHJpbmNpcGFs4oCZcy1NZXNzYWdlHwwFBV9zZWxmZBQrAAIWCB8HBRFTY2hvb2wgU3RhdGlzdGljcx8KBSQxMmVlODM2Zi1mNjZhLTQwNWQtOGJjMS1hN2Y0Yzc0NjUyOTIfCwVALzEyRUU4MzZGLUY2NkEtNDA1RC04QkMxLUE3RjRDNzQ2NTI5Mi9DTVMvUGFnZS9TY2hvb2wtU3RhdGlzdGljcx8MBQVfc2VsZmQUKwACFggfBwUUQ2hhaXJtYW7igJlzIE1lc3NhZ2UfCgUkMWNmNjc2NmUtMWQ3My00N2FmLWEzYzgtNDkxY2MyYTA3NzkzHwsFQy8xQ0Y2NzY2RS0xRDczLTQ3QUYtQTNDOC00OTFDQzJBMDc3OTMvQ01TL1BhZ2UvQ2hhaXJtYW7igJlzLU1lc3NhZ2UfDAUFX3NlbGZkFCsAAhYIHwcFElZpc2lvbiBhbmQgTWlzc2lvbh8KBSQ1ZjYxMTljMC1lNjBmLTRkM2EtODk5Ni00OTZjZjdjOGQ0OTgfCwVBLzVGNjExOUMwLUU2MEYtNEQzQS04OTk2LTQ5NkNGN0M4RDQ5OC9DTVMvUGFnZS9WaXNpb24tYW5kLU1pc3Npb24fDAUFX3NlbGZkFCsAAhYIHwcFDkFETUlOSVNUUkFUSU9OHwoFJDg4NWU0OGQ2LTFjYTUtNDI5Zi1iNTAyLWY3MDFlOGQ4ZWVkMR8LBRJqYXZhU2NyaXB0OnZvaWQoKTsfDAUFX3NlbGYUKwAEBQswOjAsMDoxLDA6MhQrAAIWCB8HBRFTY2hvb2wgTWFuYWdlbWVudB8KBSRjYmE4ODZhYi1kMTQ0LTQxZTctODMwMC1mZWYzODYxOWZmMjUfCwVAL0NCQTg4NkFCLUQxNDQtNDFFNy04MzAwLUZFRjM4NjE5RkYyNS9DTVMvUGFnZS9TY2hvb2wtTWFuYWdlbWVudB8MBQVfc2VsZmQUKwACFggfBwUMRmFjdWx0eSBMaXN0HwoFJDNmYWM5MTk4LTFlZjItNGY2Zi1hNWI1LTE4MDUzYjBkMmUzNh8LBTsvM0ZBQzkxOTgtMUVGMi00RjZGLUE1QjUtMTgwNTNCMEQyRTM2L0NNUy9QYWdlL0ZhY3VsdHktTGlzdB8MBQVfc2VsZmQUKwACFggfBwUTU3R1ZGVudOKAmXMgQ291bmNpbB8KBSQzMmQ0MjNmMy1kMDBhLTRkZjQtYTU0Mi0yN2FjMDQwMDM3NzkfCwVCLzMyRDQyM0YzLUQwMEEtNERGNC1BNTQyLTI3QUMwNDAwMzc3OS9DTVMvUGFnZS9TdHVkZW504oCZcy1Db3VuY2lsHwwFBV9zZWxmZBQrAAIWCB8HBQhBQ0FERU1JQx8KBSQxOGUzMzM3MC02ZDYwLTQyMTQtOTMwMC0xYjkxMzNhODdmYWQfCwUSamF2YVNjcmlwdDp2b2lkKCk7HwwFBV9zZWxmFCsACAUbMDowLDA6MSwwOjIsMDozLDA6NCwwOjUsMDo2FCsAAhYIHwcFDUZlZSBTdHJ1Y3R1cmUfCgUkYzhjYWQ3ZDgtYmMwMi00NGVlLWI0Y2ItZDMzYTc1YmJiZDMzHwsFPC9DOENBRDdEOC1CQzAyLTQ0RUUtQjRDQi1EMzNBNzVCQkJEMzMvQ01TL1BhZ2UvRmVlLVN0cnVjdHVyZR8MBQVfc2VsZmQUKwACFggfBwUNR2VuZXJhbCBSdWxlcx8KBSQyZTE1NTE2MS0zNGQwLTQ3ZWUtOTNlZi1mNTEyM2I2MTY5YTgfCwUSL0ZpbGUvODgxMC9nZW4ucGRmHwwFBl9ibGFua2QUKwACFggfBwUIQ2FsZW5kYXIfCgUkZDAyZjZiYjMtNDVhZC00NzZmLTlkYjAtNDdmOTU2YWJiMTNiHwsFNy9EMDJGNkJCMy00NUFELTQ3NkYtOURCMC00N0Y5NTZBQkIxM0IvQ01TL1BhZ2UvQ2FsZW5kYXIfDAUFX3NlbGZkFCsAAhYIHwcFB1VuaWZvcm0fCgUkOWIxYzYzOGQtYzhiZi00MDY2LThkZGQtMTA5ZDQ3ZjcwYTRiHwsFFi9GaWxlLzg4MTAvVW5pZm9ybS5wZGYfDAUGX2JsYW5rZBQrAAIWCB8HBQpBc3NpZ25tZW50HwoFJGMxYTAyNDUwLTk4ODQtNDJlZi1hNzc2LWFhZWRmZDg4ODhhMx8LBQsvQXNzaWdubWVudB8MBQVfc2VsZmQUKwACFggfBwULQ0NBIFBsYW5uZXIfCgUkMTM4YmZlMTgtOGY0Yy00ZjE4LWIzOTQtMzRlMTJhYjAzMjExHwsFOi8xMzhCRkUxOC04RjRDLTRGMTgtQjM5NC0zNEUxMkFCMDMyMTEvQ01TL1BhZ2UvQ0NBLVBsYW5uZXIfDAUFX3NlbGZkFCsAAhYIHwcFCEFzc2VtYmx5HwoFJDUxYzExZDJkLTg1NTAtNDcxYi04OTIwLWY3NDIxNDc0MzBlZB8LBTcvNTFDMTFEMkQtODU1MC00NzFCLTg5MjAtRjc0MjE0NzQzMEVEL0NNUy9QYWdlL0Fzc2VtYmx5HwwFBV9zZWxmZBQrAAIWCB8HBQxBQ0hJRVZFTUVOVFMfCgUkNGM0MGU0MzAtYzJkNi00YjAxLWFkZTUtNGFjYTdjZmRlZmU0HwsFEmphdmFTY3JpcHQ6dm9pZCgpOx8MBQVfc2VsZhQrAAIFAzA6MBQrAAIWCB8HBRNTcG9ydHMgQWNoaWV2ZW1lbnRzHwoFJDBlZmUyMDgzLTdmNGYtNGY5ZS1hYjFmLWM2ZTI2YzE2Y2RkMx8LBUIvMEVGRTIwODMtN0Y0Ri00RjlFLUFCMUYtQzZFMjZDMTZDREQzL0NNUy9QYWdlL1Nwb3J0cy1BY2hpZXZlbWVudHMfDAUFX3NlbGZkFCsAAhYIHwcFCkFDVElWSVRJRVMfCgUkNzk5MWViMDktMGQyNi00Mjk5LThhMDMtMTEwMDA1YTU1N2M5HwsFEmphdmFTY3JpcHQ6dm9pZCgpOx8MBQVfc2VsZhQrAAIFAzA6MBQrAAIWCB8HBQZhc3NpZ24fCgUkNTQ4YjIzNjMtMDhlZS00ODdjLWI4YjItNmRmOTUxM2Q4NDhhHwsFTmh0dHA6Ly9kYXZrdXNtdW5kYS5vcmcvRmlsZS84ODEwL2RhaWx5JTIwYXNzaWdubWVudCUyMGNsYXNzJTIwNiUyMGVuZ2xpc2guZG9jeB8MBQVfc2VsZmQUKwACFggfBwUJQURNSVNTSU9OHwoFJDdiOTU2ZWExLWY3NGEtNDE4MC04ZjIxLTk3OTdkMTA3ZGI2YR8LBRJqYXZhU2NyaXB0OnZvaWQoKTsfDAUFX3NlbGYUKwACBQMwOjAUKwACFggfBwUUVHJhbnNmZXIgQ2VydGlmaWNhdGUfCgUkNzI2MzUyMWItMzk5Ni00ZDFiLWEwNmEtNDkxYTc3OTIxNTAzHwsFFS9UcmFuc2Zlci1DZXJ0aWZpY2F0ZR8MBQVfc2VsZmQUKwACFggfBwUJQ0lSQ1VMQVJTHwoFJDVjNzdmZGMxLTE3MGQtNDFmOC04Zjg2LWI0MmU1YjU4ZDcxMh8LBRJqYXZhU2NyaXB0OnZvaWQoKTsfDAUFX3NlbGZkFCsAAhYIHwcFDklORlJBU1RSVUNUVVJFHwoFJDFkNzQ2ZTU0LTNkM2EtNDUxZC1iMzg5LTQzNmFiNmVlZDI2OB8LBT0vMUQ3NDZFNTQtM0QzQS00NTFELUIzODktNDM2QUI2RUVEMjY4L0NNUy9QYWdlL0lORlJBU1RSVUNUVVJFHwwFBV9zZWxmZBQrAAIWCB8HBQdHQUxMRVJZHwoFJGMzMzBjYTU4LWNjNmUtNDNjOS1iY2Q2LTA1ZDg1NzQ3YjQxMh8LBRJqYXZhU2NyaXB0OnZvaWQoKTsfDAUFX3NlbGYUKwACBQMwOjAUKwACFggfBwUNUGhvdG8gR2FsbGVyeR8KBSRjZmZkMzg4NS1kYWMxLTQwZGMtYjdjOC1jNDA0ZjZkZTU0OTAfCwUPL0Z1bGwvUGhvdG8vYWxsHwwFBV9zZWxmZBQrAAIWCB8HBQlIRUxQIERFU0sfCgUkNjc3MTc5ZjAtZmFjNS00MzI2LWIxMDEtOTU0M2M2Yzk5YmMxHwsFEmphdmFTY3JpcHQ6dm9pZCgpOx8MBQVfc2VsZhQrAAQFCzA6MCwwOjEsMDoyFCsAAhYIHwcFBVAuVC5NHwoFJDg1YjFhMzJiLWVhNzYtNDkyYy05NjQwLWMwNTRjYWFhMWQ3ZR8LBTQvODVCMUEzMkItRUE3Ni00OTJDLTk2NDAtQzA1NENBQUExRDdFL0NNUy9QYWdlL1AuVC5NHwwFBV9zZWxmZBQrAAIWCB8HBQpDb250YWN0IFVzHwoFJGJhNjk5Yzg3LTVlZGItNDk1OS04NDdhLWFhZWU0MTAwN2M3NR8LBTkvQkE2OTlDODctNUVEQi00OTU5LTg0N0EtQUFFRTQxMDA3Qzc1L0NNUy9QYWdlL0NvbnRhY3QtVXMfDAUFX3NlbGZkFCsAAhYIHwcFCEZlZWRiYWNrHwoFJDI3ZDc4NTY0LTUyMDItNDhlOS1iMjExLWE1YThjOTE0Njc0OB8LBQkvZmVlZGJhY2sfDAUFX3NlbGZkZAILD2QWAgIBDxQrAAIPFgQfA2cfAAIFZGQWAmYPZBYKAgEPZBYCAgEPZBYCZg8VAhYvRmlsZS84ODEwL1VuaWZvcm0ucGRmB1VuaWZvcm1kAgIPZBYCAgEPZBYCZg8VAjsvM0ZBQzkxOTgtMUVGMi00RjZGLUE1QjUtMTgwNTNCMEQyRTM2L0NNUy9QYWdlL0ZhY3VsdHktTGlzdAxGYWN1bHR5IExpc3RkAgMPZBYCAgEPZBYCZg8VAhUvVHJhbnNmZXItQ2VydGlmaWNhdGUUVHJhbnNmZXIgQ2VydGlmaWNhdGVkAgQPZBYCAgEPZBYCZg8VAgsvQXNzaWdubWVudApBc3NpZ25tZW50ZAIFD2QWAgIBD2QWAmYPFQI0Lzg1QjFBMzJCLUVBNzYtNDkyQy05NjQwLUMwNTRDQUFBMUQ3RS9DTVMvUGFnZS9QLlQuTQVQLlQuTWQCDQ9kFgICAQ8WAh8AAgEWAgIBD2QWAmYPFQGmAUFwcGVhbCBmb3IgQ09WSUQtMTkuVGhpcyBiZWluZyBvbmUgb2YgdGhlIG1vc3QgdHJ5aW5nIHRpbWVzLCBsZXQgdXMgdG9nZXRoZXIsIG9uY2UgYWdhaW4sIHJpc2UgdG8gaGVscCB0aGUgTmF0aW9uIGluIG5lZWQuRm9yIHJlYWRpbmcgY29tcGxldGUgbXNnIHZpc2l0IGRhdmNtYy5uZXQuaW5kAg8PZBYCAgEPFgIfAAIFFgxmD2QWAmYPFQEAZAIBD2QWAmYPFQUBMRtEQVYgUFVCTElDIFNDSE9PTCwgS1VTTVVOREEaS29yYmEsIENoaGF0dGlzZ2FyaC00OTU0NTQ/L0ZpbGUvODgxMC9TbGlkZXJfNGRlOTZmZTktOTY0ZS00NmQ0LWExNDEtOTU2M2I2NmI1NTlkX3NsZDEuanBnG0RBViBQVUJMSUMgU0NIT09MLCBLVVNNVU5EQWQCAg9kFgJmDxUFATIbREFWIFBVQkxJQyBTQ0hPT0wsIEtVU01VTkRBGktvcmJhLCBDaGhhdHRpc2dhcmgtNDk1NDU0Py9GaWxlLzg4MTAvU2xpZGVyXzNjMzk0NTEzLTU5ODMtNGU4Mi04NzA4LTE5N2Q1MzY2Mjk1NV9zbGQyLmpwZxtEQVYgUFVCTElDIFNDSE9PTCwgS1VTTVVOREFkAgMPZBYCZg8VBQEzG0RBViBQVUJMSUMgU0NIT09MLCBLVVNNVU5EQRpLb3JiYSwgQ2hoYXR0aXNnYXJoLTQ5NTQ1ND8vRmlsZS84ODEwL1NsaWRlcl8wMDIyMTFhYS03ZTgwLTRiMjktOGJlMi01NDNlNDMxNzIyYmNfc2xkNC5qcGcbREFWIFBVQkxJQyBTQ0hPT0wsIEtVU01VTkRBZAIED2QWAmYPFQUBNBtEQVYgUFVCTElDIFNDSE9PTCwgS1VTTVVOREEaS29yYmEsIENoaGF0dGlzZ2FyaC00OTU0NTQ/L0ZpbGUvODgxMC9TbGlkZXJfMjJiZDZiNzUtODY4MS00MzI2LTlhYTctZWMyNjNmNzgwOTFmX3NsZDMuanBnG0RBViBQVUJMSUMgU0NIT09MLCBLVVNNVU5EQWQCBQ9kFgJmDxUFATUbREFWIFBVQkxJQyBTQ0hPT0wsIEtVU01VTkRBGktvcmJhLCBDaGhhdHRpc2dhcmgtNDk1NDU0Py9GaWxlLzg4MTAvU2xpZGVyXzUxMTRjODcyLTJhMzYtNDdlNC04NTI3LTFmZGQ3NDFiZjc3Yl9zbGQ1LmpwZxtEQVYgUFVCTElDIFNDSE9PTCwgS1VTTVVOREFkAhEPDxYCHwcFCEFib3V0IFVzZGQCEw9kFgICAQ88KwAJAQAPFgQeCERhdGFLZXlzFgAfAAICZBYEAgEPZBYCZg8VAxBBYm91dCBPdXIgU2Nob29sNy9GaWxlLzg4MTAvNDQ3OGI3MGYtNDdmYS00YzRmLTlhMzgtNTMxNGI5ZTkyMzk2X3NjMS5qcGftAzxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnkiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+REFWIFB1YmxpYyBzY2hvb2xzIGluIENHIE1QIFpvbmUgaXMgZGlyZWN0bHkgbWFuYWdlZCBieSBEQVYgQ29sbGVnZSBUcnVzdCAmYW1wOyBNYW5hZ2VtZW50IFNvY2lldHksIE5ldyBEZWxoaSwgVGhlIGdvb2R3aWxsIGFuZCBjby1vcGVyYXRpb24gb2YgdGhlIExvY2FsIE1hbmFnaW5nIENvbW1pdHRlZSBLdXNtdW5kYSBBcmVhIGFuZCB1bmRlciB0aGUgYWJsZSBndWlkYW5jZSBhbmQgbGVhZGVyc2hpcCBvZiBBUk8gQ0cmbmJzcDs8L3NwYW4+PGJyIC8+DQo8YnIgLz4NCjxhIGNsYXNzPSJidG4gYnRuLXhzIGJ0bi1zdWNjZXNzIiBocmVmPSIvQTQ4MDQwQjktNjc0RS00QjhELTg5NkQtMDE4MzMxNjY1NkY4L0NNUy9QYWdlL0Fib3V0LVNjaG9vbCIgc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgdGV4dC1hbGlnbjoganVzdGlmeTsiPlJlYWQgTW9yZTwvYT48L3A+DQpkAgIPZBYCZg8VAxVQcmluY2lwYWzigJlzIE1lc3NhZ2U3L0ZpbGUvODgxMC85ZTAzM2MxZS0xYTZiLTQyN2MtOWZkZS0xMDU3MjY0MmFlODJfcHIxLmpwZ7MEPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij5EQVYgUHVibGljIFNjaG9vbCwgU0VDTCwgS3VzbXVuZGEgaXMgYW4gYW1hbGdhbWF0aW9uIG9mIGNvbXBldGVudCB0ZWFjaGVycyBhbmQgYW4gZXhwZXJpZW5jZWQgYW5kIGVmZmljaWVudCBhZG1pbmlzdHJhdGlvbi4gSSBmZWVsIEkgYW0gYmxlc3NlZCB3aXRoIGEgbm9ibGUgb3Bwb3J0dW5pdHkgb2YgY29sb3VyaW5nIHRoZSBzb3VscyBvZiBjaGlsZHJlbiBhcm91bmQgbWUgd2l0aCBwb3NpdGl2ZSBodW1hbiB2YWx1ZXMgc28gdGhhdCB0aGVzZSBjaGlsZHJlbiBmdXJ0aGVyIHNwcmVhZCB0aGUgd2FybXRoIGFuZCBqb3kgb2YmbmJzcDs8L3NwYW4+PGJyIC8+DQo8YnIgLz4NCjxhIGNsYXNzPSJidG4gYnRuLXhzIGJ0bi1zdWNjZXNzIiBocmVmPSIvMDE5NjhDMjYtODc5Ni00ODMwLTkzN0YtRTA2RDkzOTAzN0IxL0NNUy9QYWdlL1ByaW5jaXBhbOKAmXMtTWVzc2FnZSIgc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgdGV4dC1hbGlnbjoganVzdGlmeTsiPlJlYWQgTW9yZTwvYT48L3A+DQpkAhUPZBYYAgEPDxYCHwcFF1N0dWRlbnQgQ3JlYXRpdmUgQ29ybmVyZGQCAw8PFgIfBwULQXNzaWdubWVudHNkZAIFDw8WAh8HBQ5OZXcgQWRtaXNzaW9uc2RkAgcPDxYCHwcFBkFsdW1uaWRkAgkPDxYCHwcFCVZhY2FuY2llc2RkAgsPDxYCHwQFFy9GaWxlLzg4MTAvTWFnYXppbmUuanBnZGQCDQ8PFgIfB2VkZAIPDxAPFgYfAQUMTWFnemluZVRpdGxlHwIFBU1heklEHwNnZA8WAQIBFgEQBRdTdHVkZW50IENyZWF0aXZlIENvcm5lcgUBMWdkZAIVDw8WAh8EBRUvRmlsZS84ODEwL0FsdW1uaS5naWZkZAIXDw8WAh8HZWRkAhkPDxYCHwQFFi9GaWxlLzg4MTAvdmFjYW5jeS5qcGdkZAIbDw8WAh8HBQt2YWNhbmN5LmpwZ2RkAhcPZBYCAgEPZBYEAgEPDxYCHwcFDVBob3RvIEdhbGxlcnlkZAIDD2QWAgIBDzwrAAkBAA8WBB8NFgAfAAIOZBYcAgEPZBYCZg8VBBFDYXB0aW9uIE5vdCBGb3VuZG4vRmlsZS84ODEwLy9QaG90b19TbWFsbF83YzZkYjI4ZS03ZDAxLTQ2OTQtYmNhNC1mNjY0MTA5ZWE5YzhfYTk3Zjg0YzYtNTJhOS00NjEwLTgyNjgtZDQxZjg4NjQ3MGQ4X0RTQ040MzE2LmpwZxFDYXB0aW9uIE5vdCBGb3VuZBFDYXB0aW9uIE5vdCBGb3VuZGQCAw9kFgJmDxUEEUNhcHRpb24gTm90IEZvdW5kbi9GaWxlLzg4MTAvL1Bob3RvX1NtYWxsXzcxODQ4ZGEyLWRlYWItNDEwMC04NGFkLWZjMGNiODhkYjk2MV8xYTcyYzIwOC0xYTJjLTRhYWYtYTA5Ni0zZGQwYmNjMjIxNWFfRFNDTjQzMzMuanBnEUNhcHRpb24gTm90IEZvdW5kEUNhcHRpb24gTm90IEZvdW5kZAIFD2QWAmYPFQQRQ2FwdGlvbiBOb3QgRm91bmRuL0ZpbGUvODgxMC8vUGhvdG9fU21hbGxfZTk4M2Y3ZjctMTRhMy00YmNjLTg1N2MtYzM1MjVlM2VmNDUwXzkxMWFlODYzLTNhMjYtNDJmMy1iZDQ4LWVlMDAyNzYwYTU1NV9EU0NOMzExNi5qcGcRQ2FwdGlvbiBOb3QgRm91bmQRQ2FwdGlvbiBOb3QgRm91bmRkAgcPZBYCZg8VBBFDYXB0aW9uIE5vdCBGb3VuZGsvRmlsZS84ODEwLy9QaG90b19TbWFsbF8zZjQ1ZmZkZC02Mzk1LTQ0NWYtYWRmYS02MjY2ZDdmYjUxNDFfM2Y1NTkwODAtNDdiMC00OTA3LTgyNGUtNGU3NDRjZjA0MWQ3X1YgQi0yLmpwZxFDYXB0aW9uIE5vdCBGb3VuZBFDYXB0aW9uIE5vdCBGb3VuZGQCCQ9kFgJmDxUEEUNhcHRpb24gTm90IEZvdW5kbi9GaWxlLzg4MTAvL1Bob3RvX1NtYWxsX2E4OTIzOGIxLTZhYjEtNGMzZS05ODA4LWVlZGY5N2E0ZjhkMl84MDc5NGZmNS0xNWQxLTQ3MzctOTdlNy00OWU0YTAyODlhMTVfRFNDTjQ0OTkuanBnEUNhcHRpb24gTm90IEZvdW5kEUNhcHRpb24gTm90IEZvdW5kZAILD2QWAmYPFQQRQ2FwdGlvbiBOb3QgRm91bmRuL0ZpbGUvODgxMC8vUGhvdG9fU21hbGxfZjk0NGQ3ZWItNjNhOC00NTQ4LWJiYTAtZmIxNjM0ZTZmOGM4XzlhNzFiYTMzLThkNDMtNGQzNy1hNzU1LTNmNjZkODRhNDJhZl9WSUlJIEItMS5qcGcRQ2FwdGlvbiBOb3QgRm91bmQRQ2FwdGlvbiBOb3QgRm91bmRkAg0PZBYCZg8VBBFDYXB0aW9uIE5vdCBGb3VuZG4vRmlsZS84ODEwLy9QaG90b19TbWFsbF8xMzEyODY1Yy0zYmQ2LTQzNjItYWMzMi1mZmJkYjM1MTc4N2NfMjE2NjZiNjItMzc5Ny00MDljLWI1YTktNjU1MDYyZTlhMDJhX0RTQ040ODk3LmpwZxFDYXB0aW9uIE5vdCBGb3VuZBFDYXB0aW9uIE5vdCBGb3VuZGQCDw9kFgJmDxUEEUNhcHRpb24gTm90IEZvdW5kbi9GaWxlLzg4MTAvL1Bob3RvX1NtYWxsX2E4ODI3MDRkLTIxYjQtNGYyMS04NDU5LWJhNGZlY2RkNmNhOV9lZWFmMjYzOC1lMWNjLTQ4MTEtOGU1YS0zN2JjMGMzY2YyNmZfRFNDTjI5NTAuanBnEUNhcHRpb24gTm90IEZvdW5kEUNhcHRpb24gTm90IEZvdW5kZAIRD2QWAmYPFQQRQ2FwdGlvbiBOb3QgRm91bmRuL0ZpbGUvODgxMC8vUGhvdG9fU21hbGxfZWNlYWFmMTMtNWVmMy00OWY5LWE1YmUtYTAxZDJkYmRkZDFjXzgxODkyOWY5LWZhMzMtNGVjOC1iZmQ2LWJjOTY0OWFjMDQyNF9EU0NONDMyMi5qcGcRQ2FwdGlvbiBOb3QgRm91bmQRQ2FwdGlvbiBOb3QgRm91bmRkAhMPZBYCZg8VBBFDYXB0aW9uIE5vdCBGb3VuZGsvRmlsZS84ODEwLy9QaG90b19TbWFsbF82ZWQxMjZhNi03ZTUwLTRiZjEtODcyMC00ZDU1YmE1NDhiZGFfZDA1MmRmNWEtNzE5MS00ZTc3LThkMmUtMGJiYzdlNjZjNGJiX1YgQS0yLmpwZxFDYXB0aW9uIE5vdCBGb3VuZBFDYXB0aW9uIE5vdCBGb3VuZGQCFQ9kFgJmDxUEEUNhcHRpb24gTm90IEZvdW5kbi9GaWxlLzg4MTAvL1Bob3RvX1NtYWxsXzM1YWY5NTM0LWM4Y2UtNDQ1Yi1iOTRiLWYyOTQ5MTJjNGE5Yl8yZGRkNWFhMS0wMDA4LTRiMmQtOTgwYy0wNjA4MjQ5OGQzZjhfRFNDTjQ4NTguanBnEUNhcHRpb24gTm90IEZvdW5kEUNhcHRpb24gTm90IEZvdW5kZAIXD2QWAmYPFQQRQ2FwdGlvbiBOb3QgRm91bmRuL0ZpbGUvODgxMC8vUGhvdG9fU21hbGxfZjIxMWM4NWEtZGU3NS00YzFhLTlmNmItM2EzZWMyYjYwMmRjXzZlZjY4ZDU5LTIyYjctNDAxZC05ZmU4LThlNTA1M2E5Y2JkNF9EU0NONDMxMS5qcGcRQ2FwdGlvbiBOb3QgRm91bmQRQ2FwdGlvbiBOb3QgRm91bmRkAhkPZBYCZg8VBBFDYXB0aW9uIE5vdCBGb3VuZG4vRmlsZS84ODEwLy9QaG90b19TbWFsbF82MDgxOTFmYi05Nzc0LTRmZTQtOWM5NS04YTQxYjQxNzRhY2NfZmU1ZjFjMTktZmE2Zi00ZDIyLWFhZGYtZGI5OTg3YjIzMWFmX0RTQ04zMzcwLmpwZxFDYXB0aW9uIE5vdCBGb3VuZBFDYXB0aW9uIE5vdCBGb3VuZGQCGw9kFgJmDxUEEUNhcHRpb24gTm90IEZvdW5kbi9GaWxlLzg4MTAvL1Bob3RvX1NtYWxsXzUwNzM3MzYwLWQzOWYtNGU4Zi1iOWZhLWQzOGU5MTA1NGRiN182ODQxYThmMi0zYjIzLTQwODEtYTBjZi0wZDhlZTI5MjRlNmVfRFNDTjQzMTUuanBnEUNhcHRpb24gTm90IEZvdW5kEUNhcHRpb24gTm90IEZvdW5kZAIZDw8WAh8HBQxOb3RpY2UgQm9hcmRkZAIbD2QWAgIBDxYCHwACCRYSAgEPZBYEZg8VAWo8cD4NCgk8c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPmh0dHA6Ly9kYXZrdXNtdW5kYS5vcmcvRmlsZS84ODEwL1RDJTIwMjAyMC5wZGY8L3NwYW4+DQo8L3A+ZAIBDxYCHwloFgJmDxUBAGQCAg9kFgRmDxUB2gE8aDQ+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjI3LCAxMDgsIDkpOyI+T25saW5lIGNsYXNzZXMgYXJlIGdvaW5nIG9uIHRocm91Z2ggd2hhdHNhcHAgYW5kIG90aGVyIGUtbGVhcm5pbmcgdG9vbHMuIElmIHlvdSBhcmUgbm90IGF0dGVuZGluZyB0aGVzZSBjbGFzc2VzIGNvbnRhY3QgeW91ciBjbGFzcyB0ZWFjaGVyIGFuZCBiYXRjaC1tYXRlcyB0byBqb2luLjwvc3Bhbj48L2g0PmQCAQ8WAh8JaBYCZg8VAQBkAgMPZBYEZg8VAX08cD4NCgk8c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPlN0dWR5IE1hdGVyaWFsIENsYXNzZXMgSUlJIHRvIFhJSSAwNi4wNC4yMDIoV2l0aCBTb2x1dGlvbik8YnI+DQoJPC9zcGFuPg0KPC9wPmQCAQ9kFgJmDxUBQC9GaWxlLzg4MTAvY2IzYTBjZDYtMWQ1My00OWUzLTk4ZDktODFlNDUwMjE0NzgxXzA2LjA0LjIwMjAgcS5wZGZkAgQPZBYEZg8VAXc8cD4NCgkgPHNwYW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij5TdHVkeSBNYXRlcmlhbCBDbGFzc2VzIElJSSB0byBYSUkgMDUuMDQuMjAyKFdpdGggU29sdXRpb24pPC9zcGFuPg0KPC9wPmQCAQ9kFgJmDxUBQC9GaWxlLzg4MTAvNDA2YWI0OTItOTBlMi00ODk2LWJkZTMtOWM4NjRmNzlkMTUyXzA1LjA0LjIwMjAgYS5wZGZkAgUPZBYEZg8VAX48cD4NCgk8c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPlN0dWR5IE1hdGVyaWFsIENsYXNzZXMgSUlJIHRvIFhJSSAwNC4wNC4yMDIgKFdpdGggU29sdXRpb24pPGJyPg0KCTwvc3Bhbj4NCjwvcD5kAgEPZBYCZg8VAT8vRmlsZS84ODEwL2M2NTA3YzY3LTJmMTItNDFkOS1iZTgwLWY1NzcxYzA5ZGU0M18wNC4wNC4yMDIwYS5wZGZkAgYPZBYEZg8VAXg8cD4NCgkgPHNwYW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij5TdHVkeSBNYXRlcmlhbCBDbGFzc2VzIElJSSB0byBYSUkgMDMuMDQuMjAyIChXaXRoIFNvbHV0aW9uKTwvc3Bhbj4NCjwvcD5kAgEPZBYCZg8VAUAvRmlsZS84ODEwL2FlNjc3ZGNiLWRlYmEtNDJiOC1iYzBiLWQzNWRlNjc5ZDQ2Ml8wMy4wNC4yMDIwIGEucGRmZAIHD2QWBGYPFQGtATxwPg0KCTxhIGhyZWY9Imh0dHBzOi8vZG9jcy5nb29nbGUuY29tL2Zvcm1zL2QvZS8xRkFJcFFMU2VRek4tOTN4T01ISV83ZXpESk9HaXdCdmZudjFjcDlKTTZNaHFBc2dIQkNGVmhxdy92aWV3Zm9ybT91c3A9c2ZfbGluayI+Zm9yIGNsYXNzIElYIHN1YmplY3Qgc2VsZWN0aW9uIGZvcm08L2E+DQo8L3A+ZAIBDxYCHwloFgJmDxUBAGQCCA9kFgRmDxUB+gE8cD4NCgk8c3BhbiBzdHlsZT0iY29sb3I6IHJnYig3NSwgMTcyLCAxOTgpOyI+PHN0cm9uZz5UaW1lIFRhYmxlIGFuZCBHdWlkZWxpbmVzPC9zdHJvbmc+PC9zcGFuPjxzdHJvbmcgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYig3NSwgMTcyLCAxOTgpOyI+IEZPUiBUSEUgU1RVREVOVFMgT0YgQ0xBU1MgOCAoIEVJT1AgU1RVREVOVFMgT05MWSk8L3NwYW4+PC9zdHJvbmc+DQo8L3A+ZAIBD2QWAmYPFQFHL0ZpbGUvODgxMC85MmVlYTBiZS00ZmQyLTQzMTgtOTk2Ny1hNzY4ZTZhOGUwZjNfVGltZSB0YWJsZSA4dGggRUlPUC5wZGZkAgkPZBYEZg8VAXw8cD4NCgk8c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDE0OSwgNTUsIDUyKTsiPlJlc3VsdCBEZWNsYXJlZCBmb3IgY2xhc3Nlcy0gVixWSSxWSUksVklJSSxJWCxYSSA8L3NwYW4+PC9zdHJvbmc+DQo8L3A+ZAIBD2QWAmYPFQE9L0ZpbGUvODgxMC9kZjIzNjgzMy01MjU1LTQ3Y2EtYTVlZS1iNTMzOTNmN2UwZGZfNUEtbWVyZ2VkLnBkZmQCHQ9kFgYCAQ8PFgIfBwUGRXZlbnRzZGQCAw8PFgIfBwUQU29jaWFsIEF3YXJlbmVzc2RkAgUPDxYCHwcFDEFjaGlldmVtZW50c2RkAh8PDxYCHwcFDkNvbnRhY3QgVXMg4oaTZGQCIQ8WAh8HBcYDPHA+PGltZyBhbHQ9IiIgc3JjPSIvRmlsZS84ODEwL0NvbnRhY3QgVXMucG5nIiBzdHlsZT0iaGVpZ2h0OjExNXB4OyB3aWR0aDoxNjBweCIgLz48L3A+DQoNCjxwPiZuYnNwOzwvcD4NCg0KPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3Ryb25nPkRBViBQdWJsaWMgU2Nob29sIEt1c211bmRhPC9zdHJvbmc+PGJyIC8+DQpTRUNMIEFkYXJzaCBOYWdhciw8YnIgLz4NCkt1c211bmRhLCBLb3JiYSw8YnIgLz4NCkNoaGF0dGlzZ2FyaC00OTU0NTQ8YnIgLz4NCjxzdHJvbmc+UGhvbmU6PC9zdHJvbmc+PGJyIC8+DQo8c3Ryb25nPkUtTWFpbDombmJzcDs8L3N0cm9uZz5kYXZrc21pbmZvQGdtYWlsLmNvbTwvc3Bhbj48YnIgLz4NCjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHN0cm9uZz5XZWJzaXRlOiZuYnNwOzwvc3Ryb25nPnd3dy5kYXZrdXNtdW5kYS5vcmc8L3NwYW4+PC9wPmQCIw8PFgIfBwUPUXVpY2sgTGlua3Mg4oaTZGQCJQ9kFgICAQ8WAh8AAgYWDGYPZBYCZg8VAzkvQkE2OTlDODctNUVEQi00OTU5LTg0N0EtQUFFRTQxMDA3Qzc1L0NNUy9QYWdlL0NvbnRhY3QtVXMFX3NlbGYKQ09OVEFDVCBVU2QCAg9kFgJmDxUDCS9GZWVkYmFjawVfc2VsZghGRUVEQkFDS2QCBA9kFgJmDxUDDy9GdWxsL1Bob3RvL2FsbAVfc2VsZg1QSE9UTyBHQUxMRVJZZAIGD2QWAmYPFQMSL0ZpbGUvODgxMC9nZW4ucGRmBl9ibGFuaw1HRU5FUkFMIFJVTEVTZAIID2QWAmYPFQNBLzVGNjExOUMwLUU2MEYtNEQzQS04OTk2LTQ5NkNGN0M4RDQ5OC9DTVMvUGFnZS9WaXNpb24tYW5kLU1pc3Npb24GX2JsYW5rElZJU0lPTiBBTkQgTUlTU0lPTmQCCg9kFgJmDxUDCy9Bc3NpZ25tZW50BV9zZWxmCkFTU0lHTk1FTlRkAicPDxYCHwcFEExvY2F0aW9uIE1hcCDihpNkZAIrD2QWAgIBDzwrAAkBAA8WBB8NFgAfAAIFZBYKZg9kFgQCAg8VAQxVc2VmdWwgbGlua3NkAgMPFgIfAAICFgQCAQ9kFgJmDxUCE2h0dHA6Ly9jYnNlLm5pYy5pbi8EQ0JTRWQCAg9kFgJmDxUCGWh0dHA6Ly9kYXZ1bml2ZXJzaXR5Lm9yZy8OREFWIFVOSVZFUlNJVFlkAgEPZBYEAgIPFQEAZAIDDxYCHwAC/////w9kAgIPZBYEAgIPFQEGREFWQ0FFZAIDDxYCHwACBBYIAgEPZBYCZg8VAhVodHRwOi8vZGF2Y2FlLm5ldC5pbi8GREFWQ0FFZAICD2QWAmYPFQIUaHR0cDovL29seS5kYXZjbWMuaW4IT0xZTVBJQURkAgMPZBYCZg8VAiJodHRwOi8vZGF2c29jaWFsYXBwLm1pdmNsaWVudC5vcmcvEElOVEVMTEVDVFVBTCBIVUJkAgQPZBYCZg8VAhVodHRwOi8vZGF2Y2FlLm5ldC5pbi8TRVZBTFVBVElPTiBQUk9GT1JNQWQCAw9kFgQCAg8VAQBkAgMPFgIfAAL/////D2QCBA9kFgQCAg8VAQZEQVZDTUNkAgMPFgIfAAIEFggCAQ9kFgJmDxUCMWh0dHBzOi8vMTEwLjE3Mi4xNDAuNzU6OTAvYWNjb3VudHMyMDE1L2xvZ2luLmFzcHgPQlVER0VUICYgU0FMQVJZZAICD2QWAmYPFQIlaHR0cHM6Ly8xMTAuMTcyLjE0MC43NTo4NC9Mb2dpbi9Mb2dpbhVQUk9WSURFTlQgRlVORCBTQ0hPT0xkAgMPZBYCZg8VAhtodHRwczovLzExMC4xNzIuMTQwLjc1OjU0Mi8SVkVISUNMRSBNQU5BR0VNRU5UZAIED2QWAmYPFQIUaHR0cDovL2NtLmRhdmNtYy5pbi8UT05MSU5FIENPTU1VTklDQVRJT05kAi0PFgIfBwWCASZjb3B5OyA8c2NyaXB0PiBkb2N1bWVudC53cml0ZShuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCkpPC9zY3JpcHQ+IERBViBQVUJMSUMgU0NIT09MLCBLVVNNVU5EQSAoQ0hIQVRUSVNHQVJIKS4gQWxsIFJpZ2h0cyBSZXNlcnZlZC5kGAEFHFNjaG9vbFZpZXcxJGx2U2Nob29sT3ZlclZpZXcPFCsADmRkZGRkZGQ8KwAFAAIFZGRkZgL/////D2TUWy836uyiu9PPMRSSb8sIc0Zcq12y7FUQkS4SnsK9VQ==" />
+        </div>
+        
+        
+        <script src="/WebResource.axd?d=HGhnpLlwc2_5ISKp7KWgvormMT2-vt0ZNr7yl_gonKng-Dnktzb6wj6flxm_gFTO45cqnKqedAK1ihY0AWVmpF8LS_KjOgYHBybnCcu9p101&amp;t=637346523180000000" type="text/javascript"></script>
+        <div class="aspNetHidden">
+        
+          <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+          <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA/Tw4vVSF0h6stCQgAh94j9Dh50rGRh/UMiSoB1qXvzIeclTeV2gQq/r83rt42CwaHUW8dO7yxveppRIQfem9JTW4pEl9JhgIc4qacCDbOt2H20EWUMuuSwWHJFMauG3ouZ0+aLGMR5LBcC+V75nxfdiUSrpQeWFRmm/ftOFmgrdyNqVl129r0gt4R2f29GyQTU7kxBWMs+UmcWl6AspYE++aPG1iAyJf7tzWqOG1zfElyeYQuP53KGXtQVWK0tAdn//Z/WbyLQI63OcAwcR6EkERZHHduKbuQoiGJIhFANV1XJ0cbsYK4l36GSfn12HKyD/pwfM686YsPs7ljYCSWGlIwRC1CljWTCc7LYFTtXMA==" />
+        </div>
+             <div class="container wrapper">
+                <div class="row">
+                  
+                  
+                        <div class="col-lg-12" style="background-color: #B40303;">
+                        
+        <div class="top-header-bar-red2">
+            <div class="maindavcmcmenu">
+                
+                        <ul class="breadcrumb">
+                    
+                        <li><a href='http://davcmc.net.in/90A072FD-CBD8-4081-9BA6-DE1B8A4A8A59/CMS/Page/DAV-CMC' target="_blank">ABOUT DAVCMC</a></li>
+                    
+                        <li><a href='http://appsabha.org/' target="_blank">ARYA SAMAJ</a></li>
+                    
+                        <li><a href='http://davcmc.net.in/902CAD36-4276-46A8-9987-696DCF40B0FB/CMS/Page/Presidents-Message' target="_blank">PRESIDENT’s MESSAGE</a></li>
+                    
+                        <li><a href='http://www.youtube.com/user/DAVCMCVIDEOS' target="_blank">DAVCMC VIDEOS</a></li>
+                    
+                        <li><a href='https://www.facebook.com/davunited' target="_blank">ALUMNI</a></li>
+                    
+                        <li><a href='http://davsocialapp.mivclient.org/' target="_blank">DAVCMC INTELLECTUAL HUB</a></li>
+                    
+                        </ul>
+                    
+            </div>
+                <select name="DavMenu1$ddldavmenu" id="ddldavmenu" class="form-control davcmcmenu">
+          <option selected="selected" value="0">Select Dav CMC Menu</option>
+          <option value="http://davcmc.net.in/90A072FD-CBD8-4081-9BA6-DE1B8A4A8A59/CMS/Page/DAV-CMC">ABOUT DAVCMC</option>
+          <option value="http://appsabha.org/">ARYA SAMAJ</option>
+          <option value="http://davcmc.net.in/902CAD36-4276-46A8-9987-696DCF40B0FB/CMS/Page/Presidents-Message">PRESIDENT’s MESSAGE</option>
+          <option value="http://www.youtube.com/user/DAVCMCVIDEOS">DAVCMC VIDEOS</option>
+          <option value="https://www.facebook.com/davunited">ALUMNI</option>
+          <option value="http://davsocialapp.mivclient.org/">DAVCMC INTELLECTUAL HUB</option>
+        
+        </select>
+        
+        </div>
+                        </div>
+                        <div class="col-lg-2" style="background-color: #B40303;">
+                             <div id="logopanel" style="position: relative; top:-10px;">
+          
+                             <img src="/MyImages/LOGO.png" alt="logo" />
+                            
+                        
+        </div>
+                      
+                        </div>
+                
+                        <div id="panelSiteName" class="col-lg-10" class="col-lg-8" style="background-color: #B40303; height: 122px;">
+          
+                            <div>
+                             <a id="sitename" class="Sitetitle">DAV PUBLIC SCHOOL, KUSMUNDA</a>
+                            </div>
+                             <div>
+                                <span id="slogan" class="slogan">Korba, Chhattisgarh-495454</span>
+                          </div>
+                          <div>
+                               
+                            </div>
+                        
+        </div>
+        
+                        
+                   
+                        
+                      
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <nav class="nav-wrapper navbar navbar-default" role="navigation" style="border:none; margin-top:-10px;z-index: 9999">
+                           
+        <div id="menu">
+        <a href="#Menu1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=9d4P4Id--fb8PVOVT5r3CFzuXffv__FguoIMCbVo0LJ7EZo61n8LXtT1ixqWWZ3Yee6TJr5XJajn4qe7-BWP42S5baQBQGIc8GLr5rxz4381&amp;t=637346523180000000" width="0" height="0" style="border-width:0px;" /></a><div id="Menu1" style="z-index:999">
+          <ul class="level1">
+            <li><a class="level1" href="/" target="_self">HOME</a></li><li><a class="level1" href="javaScript:void();" target="_self">ABOUT US</a><ul class="level2">
+              <li><a class="level2" href="/A48040B9-674E-4B8D-896D-0183316656F8/CMS/Page/About-School" target="_self">About School</a></li><li><a class="level2" href="/01968C26-8796-4830-937F-E06D939037B1/CMS/Page/Principal%e2%80%99s-Message" target="_self">Principal’s Message</a></li><li><a class="level2" href="/12EE836F-F66A-405D-8BC1-A7F4C7465292/CMS/Page/School-Statistics" target="_self">School Statistics</a></li><li><a class="level2" href="/1CF6766E-1D73-47AF-A3C8-491CC2A07793/CMS/Page/Chairman%e2%80%99s-Message" target="_self">Chairman’s Message</a></li><li><a class="level2" href="/5F6119C0-E60F-4D3A-8996-496CF7C8D498/CMS/Page/Vision-and-Mission" target="_self">Vision and Mission</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">ADMINISTRATION</a><ul class="level2">
+              <li><a class="level2" href="/CBA886AB-D144-41E7-8300-FEF38619FF25/CMS/Page/School-Management" target="_self">School Management</a></li><li><a class="level2" href="/3FAC9198-1EF2-4F6F-A5B5-18053B0D2E36/CMS/Page/Faculty-List" target="_self">Faculty List</a></li><li><a class="level2" href="/32D423F3-D00A-4DF4-A542-27AC04003779/CMS/Page/Student%e2%80%99s-Council" target="_self">Student’s Council</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">ACADEMIC</a><ul class="level2">
+              <li><a class="level2" href="/C8CAD7D8-BC02-44EE-B4CB-D33A75BBBD33/CMS/Page/Fee-Structure" target="_self">Fee Structure</a></li><li><a class="level2" href="/File/8810/gen.pdf" target="_blank">General Rules</a></li><li><a class="level2" href="/D02F6BB3-45AD-476F-9DB0-47F956ABB13B/CMS/Page/Calendar" target="_self">Calendar</a></li><li><a class="level2" href="/File/8810/Uniform.pdf" target="_blank">Uniform</a></li><li><a class="level2" href="/Assignment" target="_self">Assignment</a></li><li><a class="level2" href="/138BFE18-8F4C-4F18-B394-34E12AB03211/CMS/Page/CCA-Planner" target="_self">CCA Planner</a></li><li><a class="level2" href="/51C11D2D-8550-471B-8920-F742147430ED/CMS/Page/Assembly" target="_self">Assembly</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">ACHIEVEMENTS</a><ul class="level2">
+              <li><a class="level2" href="/0EFE2083-7F4F-4F9E-AB1F-C6E26C16CDD3/CMS/Page/Sports-Achievements" target="_self">Sports Achievements</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">ACTIVITIES</a><ul class="level2">
+              <li><a class="level2" href="http://davkusmunda.org/File/8810/daily%20assignment%20class%206%20english.docx" target="_self">assign</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">ADMISSION</a><ul class="level2">
+              <li><a class="level2" href="/Transfer-Certificate" target="_self">Transfer Certificate</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">CIRCULARS</a></li><li><a class="level1" href="/1D746E54-3D3A-451D-B389-436AB6EED268/CMS/Page/INFRASTRUCTURE" target="_self">INFRASTRUCTURE</a></li><li><a class="level1" href="javaScript:void();" target="_self">GALLERY</a><ul class="level2">
+              <li><a class="level2" href="/Full/Photo/all" target="_self">Photo Gallery</a></li>
+            </ul></li><li><a class="level1" href="javaScript:void();" target="_self">HELP DESK</a><ul class="level2">
+              <li><a class="level2" href="/85B1A32B-EA76-492C-9640-C054CAAA1D7E/CMS/Page/P.T.M" target="_self">P.T.M</a></li><li><a class="level2" href="/BA699C87-5EDB-4959-847A-AAEE41007C75/CMS/Page/Contact-Us" target="_self">Contact Us</a></li><li><a class="level2" href="/feedback" target="_self">Feedback</a></li>
+            </ul></li>
+          </ul>
+        </div><a id="Menu1_SkipLink"></a>
+        </div>
+        
+        
+                        </nav>
+                        </div>
+        
+                          
+                        <div class="col-lg-12 col-md-12 col-sm-12" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
+                            <div style="overflow:hidden; height:86px;">
+                                <div class="row demo-x light" >
+                          
+                            
+        <div>
+            
+                    <ul class="Top-Bg-Menu">
+                        
+                    
+                    <li>
+                    <a href='/File/8810/Uniform.pdf' class="SchoolView">
+                      <i class="glyphicon glyphicon-hand-right smallIcon"></i>&nbsp; &nbsp;Uniform
+                    </a>
+                    </li>
+        
+                    
+                
+                
+                    
+                    <li>
+                    <a href='/3FAC9198-1EF2-4F6F-A5B5-18053B0D2E36/CMS/Page/Faculty-List' class="SchoolView">
+                      <i class="glyphicon glyphicon-hand-right smallIcon"></i>&nbsp; &nbsp;Faculty List
+                    </a>
+                    </li>
+        
+                    
+                
+                
+                    
+                    <li>
+                    <a href='/Transfer-Certificate' class="SchoolView">
+                      <i class="glyphicon glyphicon-hand-right smallIcon"></i>&nbsp; &nbsp;Transfer Certificate
+                    </a>
+                    </li>
+        
+                    
+                
+                
+                    
+                    <li>
+                    <a href='/Assignment' class="SchoolView">
+                      <i class="glyphicon glyphicon-hand-right smallIcon"></i>&nbsp; &nbsp;Assignment
+                    </a>
+                    </li>
+        
+                    
+                
+                
+                    
+                    <li>
+                    <a href='/85B1A32B-EA76-492C-9640-C054CAAA1D7E/CMS/Page/P.T.M' class="SchoolView">
+                      <i class="glyphicon glyphicon-hand-right smallIcon"></i>&nbsp; &nbsp;P.T.M
+                    </a>
+                    </li>
+        
+                    
+                
+                
+                    </ul>
+                
+        </div>
+                            </div>
+                            </div>
+                        </div>
+        
+                         
+                        <div class="col-lg-2 col-md-2 col-sm-2" style="background-color: #EEE3C7;">
+                            <div class="graybox bold">
+                             <div class="latest-news">
+                                                Latest News <span class="left-arrow">&nbsp;</span>
+                                        </div>
+                            </div>
+                            </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10" style=" height:45px;background-color: #EEE3C7;">
+                        
+        <script type"text/javascript">
+            jQuery(document).ready(function () {
+        //        jQuery('.news li:gt(0)').hide();
+        //        setInterval(function () { jQuery('.news li:first-child').fadeOut().next('li').fadeIn().end().appendTo('.news'); }, 3000);
+            });
+        </script>
+        
+                <ul class="news">
+            
+                <li>
+                    Appeal for COVID-19.This being one of the most trying times, let us together, once again, rise to help the Nation in need.For reading complete msg visit davcmc.net.in
+                </li>
+            
+                
+            
+                        </div>
+                        <div class="col-lg-12 clearfix" style="height:1px;">&nbsp;</div>
+                      
+                        
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div style="height: 300px; overflow: hidden;">
+                            
+        <div id="pSlider">
+        
+                <section class="box box-features">
+                        <ul class="tabs">
+                         <li><a href='#' class="active"></a></li>
+                    </ul>
+                        <div class="viewer" style="overflow:hidden; height:250px;">
+              <div class="reel">
+            
+                        
+                  
+                <!-- Features -->
+                 
+                <article id="1">
+                    <h2 class="caption-1">DAV PUBLIC SCHOOL, KUSMUNDA</h2>
+                  <p class="caption-2">
+                                Korba, Chhattisgarh-495454
+                            </p>
+                            <img src='/File/8810/Slider_4de96fe9-964e-46d4-a141-9563b66b559d_sld1.jpg' class="image image-full img-responsive" alt='DAV PUBLIC SCHOOL, KUSMUNDA' />
+                          
+                  
+                  </article>
+                     
+            
+                        
+                  
+                <!-- Features -->
+                 
+                <article id="2">
+                    <h2 class="caption-1">DAV PUBLIC SCHOOL, KUSMUNDA</h2>
+                  <p class="caption-2">
+                                Korba, Chhattisgarh-495454
+                            </p>
+                            <img src='/File/8810/Slider_3c394513-5983-4e82-8708-197d53662955_sld2.jpg' class="image image-full img-responsive" alt='DAV PUBLIC SCHOOL, KUSMUNDA' />
+                          
+                  
+                  </article>
+                     
+            
+                        
+                  
+                <!-- Features -->
+                 
+                <article id="3">
+                    <h2 class="caption-1">DAV PUBLIC SCHOOL, KUSMUNDA</h2>
+                  <p class="caption-2">
+                                Korba, Chhattisgarh-495454
+                            </p>
+                            <img src='/File/8810/Slider_002211aa-7e80-4b29-8be2-543e431722bc_sld4.jpg' class="image image-full img-responsive" alt='DAV PUBLIC SCHOOL, KUSMUNDA' />
+                          
+                  
+                  </article>
+                     
+            
+                        
+                  
+                <!-- Features -->
+                 
+                <article id="4">
+                    <h2 class="caption-1">DAV PUBLIC SCHOOL, KUSMUNDA</h2>
+                  <p class="caption-2">
+                                Korba, Chhattisgarh-495454
+                            </p>
+                            <img src='/File/8810/Slider_22bd6b75-8681-4326-9aa7-ec263f78091f_sld3.jpg' class="image image-full img-responsive" alt='DAV PUBLIC SCHOOL, KUSMUNDA' />
+                          
+                  
+                  </article>
+                     
+            
+                        
+                  
+                <!-- Features -->
+                 
+                <article id="5">
+                    <h2 class="caption-1">DAV PUBLIC SCHOOL, KUSMUNDA</h2>
+                  <p class="caption-2">
+                                Korba, Chhattisgarh-495454
+                            </p>
+                            <img src='/File/8810/Slider_5114c872-2a36-47e4-8527-1fdd741bf77b_sld5.jpg' class="image image-full img-responsive" alt='DAV PUBLIC SCHOOL, KUSMUNDA' />
+                          
+                  
+                  </article>
+                     
+            
+                   </div>
+                </div>
+                <div class="captions">
+              <span class="caption-line-1"></span>
+              <span class="caption-line-2"></span>
+            </div>
+            </section>
+            
+        </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="colMargin">
+                            
+        
+        <div>
+        <div class="row">
+        <table id="dlDetail" cellspacing="0" style="border-collapse:collapse;">
+          <tr>
+            <td colspan="2">
+                <div class="col-lg-6">
+                
+            </td>
+          </tr><tr>
+            <td>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <i class="glyphicon glyphicon-pencil smallIcon"></i>   About Our School
+                    </div>
+                    <div class="panel-body">
+                    <div style="row">
+                        <div class="col-lg-4">
+                                        <img src='/File/8810/4478b70f-47fa-4c4f-9a38-5314b9e92396_sc1.jpg' width="100px" height="100px" class="thumbnail" style="text-align:left;"  alt=""/>                
+                        </div>
+                        <div class="col-lg-8">
+                            <div style="text-align: justify;">
+                                <p style="text-align:justify"><span style="font-size:12px">DAV Public schools in CG MP Zone is directly managed by DAV College Trust &amp; Management Society, New Delhi, The goodwill and co-operation of the Local Managing Committee Kusmunda Area and under the able guidance and leadership of ARO CG&nbsp;</span><br />
+        <br />
+        <a class="btn btn-xs btn-success" href="/A48040B9-674E-4B8D-896D-0183316656F8/CMS/Page/About-School" style="font-size: 12px; text-align: justify;">Read More</a></p>
+        
+                            </div>   
+                        </div>
+                    </div>
+        
+                     
+                    </div>
+                </div>
+            </td><td>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                    <i class="glyphicon glyphicon-pencil smallIcon"></i>   Principal’s Message
+                    </div>
+                    <div class="panel-body">
+                    <div style="row">
+                        <div class="col-lg-4">
+                                        <img src='/File/8810/9e033c1e-1a6b-427c-9fde-10572642ae82_pr1.jpg' width="100px" height="100px" class="thumbnail" style="text-align:left;"  alt=""/>                
+                        </div>
+                        <div class="col-lg-8">
+                            <div style="text-align: justify;">
+                                <p style="text-align:justify"><span style="font-size:12px">DAV Public School, SECL, Kusmunda is an amalgamation of competent teachers and an experienced and efficient administration. I feel I am blessed with a noble opportunity of colouring the souls of children around me with positive human values so that these children further spread the warmth and joy of&nbsp;</span><br />
+        <br />
+        <a class="btn btn-xs btn-success" href="/01968C26-8796-4830-937F-E06D939037B1/CMS/Page/Principal’s-Message" style="font-size: 12px; text-align: justify;">Read More</a></p>
+        
+                            </div>   
+                        </div>
+                    </div>
+        
+                     
+                    </div>
+                </div>
+            </td>
+          </tr><tr>
+            <td colspan="2">
+            </div>
+            </td>
+          </tr>
+        </table>
+        </div>
+        
+            
+        </div>
+                        </div>
+                        <div id="pnlBC">
+          
+                            <div>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#CreativeCorner" data-toggle="tab"><i class="glyphicon glyphicon-picture smallIcon">
+                                    </i>
+                                        <span id="lblMagazine">Student Creative Corner</span>
+                                    </a></li>
+                                    <li><a href="#AssignmentDetail" data-toggle="tab"><i class="glyphicon glyphicon-bullhorn smallIcon">
+                                    </i>
+                                        <span id="lblAssignments" class="TwoColumntitle">Assignments</span>
+                                    </a></li>
+                                    <li><a href="#AdmissionDetail" data-toggle="tab"><i class="glyphicon glyphicon-plus smallIcon">
+                                    </i>
+                                        <span id="lblNewAdmission" class="">New Admissions</span>
+                                    </a></li>
+                                    <li><a href="#ScholAlumni" data-toggle="tab"><i class="glyphicon glyphicon-user smallIcon">
+                                    </i>
+                                        <span id="lblAlumni">Alumni</span>
+                                    </a></li>
+                                    <li><a href="#Vacancypnl" data-toggle="tab"><i class="glyphicon glyphicon-send smallIcon">
+                                    </i>
+                                        <span id="lblVacancy">Vacancies</span>
+                                    </a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="CreativeCorner">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img id="magImage" src="/File/8810/Magazine.jpg" style="width: 100%; height: 139px;" />
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span id="lblimagezinetitle"></span>
+                                                <br />
+                                                <select name="ddlmagzine" id="ddlmagzine" class="form-control">
+            <option selected="selected" value="0">Select</option>
+            <option value="1">Student Creative Corner</option>
+        
+          </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="AssignmentDetail">
+                                        
+        <div>&nbsp;</div>
+        
+                              
+                                    </div>
+                                    <div class="tab-pane fade" id="AdmissionDetail">
+                                        
+        <div>&nbsp;</div>
+        
+        
+                                    </div>
+                                    <div class="tab-pane fade" id="ScholAlumni">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <a href="/Alumni-Registration">
+                                                    <img id="magAlumni" src="/File/8810/Alumni.gif" style="width: 100%; height: 130px;" />
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <a href="/Alumni-Registration">
+                                                    <span id="lblAlumnidetail"></span>
+                                                    <br />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="Vacancypnl">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <a href="/Vacancy">
+                                                    <img id="imgVacancy" class="thumbnail" src="/File/8810/vacancy.jpg" style="height: 100px;" /></a>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <a href="/Vacancy">
+                                                    <span id="lblVacancyDetail">vacancy.jpg</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        
+        </div>
+        
+                        
+                        <div id="pnlShowOther" class="row">
+          
+                            <div id="pnlB2" class="col-lg-4">
+            
+                            <div >
+                             <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <i class="glyphicon glyphicon-share-alt smallIcon"></i>      <span id="lblPhoto" class="title">Photo Gallery</span>
+                                </div>
+                                <div class="panel-body">
+                                        
+        <div class="infiniteCarousel">
+        <span id="ddlistGallery"><span>
+                        <div class="infiniteCarousel" style="width: 746px; overflow:hidden;" id="scroller">
+                        <ul class="smallgallery">
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_7c6db28e-7d01-4694-bca4-f664109ea9c8_a97f84c6-52a9-4610-8268-d41f886470d8_DSCN4316.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_71848da2-deab-4100-84ad-fc0cb88db961_1a72c208-1a2c-4aaf-a096-3dd0bcc2215a_DSCN4333.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_e983f7f7-14a3-4bcc-857c-c3525e3ef450_911ae863-3a26-42f3-bd48-ee002760a555_DSCN3116.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_3f45ffdd-6395-445f-adfa-6266d7fb5141_3f559080-47b0-4907-824e-4e744cf041d7_V B-2.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_a89238b1-6ab1-4c3e-9808-eedf97a4f8d2_80794ff5-15d1-4737-97e7-49e4a0289a15_DSCN4499.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_f944d7eb-63a8-4548-bba0-fb1634e6f8c8_9a71ba33-8d43-4d37-a755-3f66d84a42af_VIII B-1.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_1312865c-3bd6-4362-ac32-ffbdb351787c_21666b62-3797-409c-b5a9-655062e9a02a_DSCN4897.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_a882704d-21b4-4f21-8459-ba4fecdd6ca9_eeaf2638-e1cc-4811-8e5a-37bc0c3cf26f_DSCN2950.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_eceaaf13-5ef3-49f9-a5be-a01d2dbddd1c_818929f9-fa33-4ec8-bfd6-bc9649ac0424_DSCN4322.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_6ed126a6-7e50-4bf1-8720-4d55ba548bda_d052df5a-7191-4e77-8d2e-0bbc7e66c4bb_V A-2.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_35af9534-c8ce-445b-b94b-f294912c4a9b_2ddd5aa1-0008-4b2d-980c-06082498d3f8_DSCN4858.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_f211c85a-de75-4c1a-9f6b-3a3ec2b602dc_6ef68d59-22b7-401d-9fe8-8e5053a9cbd4_DSCN4311.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_608191fb-9774-4fe4-9c95-8a41b4174acc_fe5f1c19-fa6f-4d22-aadf-db9987b231af_DSCN3370.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                   
+                </span><span>
+                            <li>
+                                <a  href='/Full/Photo/all' title='Caption Not Found'>
+                                <img src='/File/8810//Photo_Small_50737360-d39f-4e8f-b9fa-d38e91054db7_6841a8f2-3b23-4081-a0cf-0d8ee2924e6e_DSCN4315.jpg'  style="" alt='Caption Not Found' title='Caption Not Found' width="80px" height="80px" class="thumbnail" />                           </a>
+                            </li>
+                
+                </span><span>
+                        </ul>
+                    </div>
+                    <div style="clear:both;"></div>
+                </span></span>
+        </div>
+                                </div>
+                            </div>
+                            </div> 
+                            
+          </div>
+                            <div id="pnlC">
+                            
+                            <div class="col-lg-4">
+                             <div class="panel panel-default">
+                                <div class="panel-heading"> 
+                                 <span id="lblbirthday">Happy Birthday</span>
+                                </div>
+                                <div class="panel-body">
+                                
+        <div class="BirthdayPhoto">
+           
+        </div>
+        
+                                </div>
+                            </div>
+                            </div>                 
+                            <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     Student/Parent Login 
+                                </div>
+                                <div class="panel-body">
+                                    <a href="/OSM">
+                                    <img src="/MyImages/UserLogin.jpg" class="img-responsive img-rounded img-thumbnail" />
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            </div>  
+                             
+          </div>               
+                         
+        </div> 
+                           
+        
+                            
+                           
+                    </div>
+                       
+                        <div class="col-lg-4 col-md-4 col-sm-8">
+                        <div>&nbsp;</div>
+                            <div class="panel panel-default noticeboard">
+                            <div class="buttom">&nbsp;</div>
+                                <div class="">
+                                            <div class="LeftCornar"></div><div class="RightCornar"></div>
+                                            <div class="Title">
+                                               <i class="glyphicon glyphicon-share-alt smallIcon"></i>     <span id="lblNoticeBoard">Notice Board</span>
+                                            </div>
+                                <div class="panel-body" style="background-color:#fff; border:none; margin-top:10px;">
+                                    
+        <marquee scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="up" style="height:210px; margin-top:5px;width: 100%;">
+        <div class=" content light">
+         
+                <ul class="list-group">
+            
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <span style="background-color: initial;">http://davkusmunda.org/File/8810/TC%202020.pdf</span>
+        </p> &nbsp; 
+                                
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <h4><span style="color: rgb(227, 108, 9);">Online classes are going on through whatsapp and other e-learning tools. If you are not attending these classes contact your class teacher and batch-mates to join.</span></h4> &nbsp; 
+                                
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <span style="background-color: initial;">Study Material Classes III to XII 06.04.202(With Solution)<br>
+          </span>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/cb3a0cd6-1d53-49e3-98d9-81e450214781_06.04.2020 q.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+           <span style="background-color: initial;">Study Material Classes III to XII 05.04.202(With Solution)</span>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/406ab492-90e2-4896-bde3-9c864f79d152_05.04.2020 a.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <span style="background-color: initial;">Study Material Classes III to XII 04.04.202 (With Solution)<br>
+          </span>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/c6507c67-2f12-41d9-be80-f5771c09de43_04.04.2020a.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+           <span style="background-color: initial;">Study Material Classes III to XII 03.04.202 (With Solution)</span>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/ae677dcb-deba-42b8-bc0b-d35de679d462_03.04.2020 a.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQzN-93xOMHI_7ezDJOGiwBvfnv1cp9JM6MhqAsgHBCFVhqw/viewform?usp=sf_link">for class IX subject selection form</a>
+        </p> &nbsp; 
+                                
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <span style="color: rgb(75, 172, 198);"><strong>Time Table and Guidelines</strong></span><strong style="background-color: initial;"><span style="color: rgb(75, 172, 198);"> FOR THE STUDENTS OF CLASS 8 ( EIOP STUDENTS ONLY)</span></strong>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/92eea0be-4fd2-4318-9967-a768e6a8e0f3_Time table 8th EIOP.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                <li class="Page-list-group-item">
+                                <div style="position:relative">
+                                <p>
+          <strong><span style="color: rgb(149, 55, 52);">Result Declared for classes- V,VI,VII,VIII,IX,XI </span></strong>
+        </p> &nbsp; 
+                                <span id="Span1">
+                            <a href="/File/8810/df236833-5255-47ca-a5ee-b53393f7e0df_5A-merged.pdf" class="blankLink" target="_blank">
+                                <img src="/MyImages/dw.png" alt="Download" title="Download" style="padding:2px;" />
+                            </a>  </span>
+                                
+                        </div>
+                </li>
+                   
+        
+                
+                </ul>
+               
+        </div>
+        </marquee>
+                                </div>
+        
+                                </div>
+                                
+                                
+                            </div>
+        
+                            <div id="pnlB">
+          
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#event" data-toggle="tab">
+                                <i class="glyphicon glyphicon-calendar smallIcon"></i>     <span id="lblEventCalendar">Events</span>
+                                </a></li>
+                                <li><a href="#social" data-toggle="tab">
+                                <i class="glyphicon glyphicon-leaf smallIcon"></i>   <span id="lblSocial">Social Awareness</span>
+                                </a></li>
+                                <li><a href="#achievement" data-toggle="tab">
+                                <i class="glyphicon glyphicon-briefcase smallIcon"></i>      <span id="lblAchievement">Achievements</span>
+                                </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="event">
+                                    
+        
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        
+            
+        <div>
+        
+        
+        <a href="/Event-Calendar" class="btn btn-xs btn-success"><span class="glyphicon glyphicon-fullscreen smallIcon"></span> Show More</a>
+        </div>
+                                </div>
+                                <div class="tab-pane fade" id="social">
+                                
+        <div>&nbsp;</div>
+        
+            <div>&nbsp;</div>
+        
+            <div>
+            <a href="/Social-Awareness" class="btn btn-xs btn-success"><span class="glyphicon glyphicon-fullscreen smallIcon"></span> Show More</a>
+            </div>
+            
+                                </div>
+                                <div class="tab-pane fade" id="achievement">
+                                
+        <div class="scroll content light">
+            
+        </div>
+                                </div>
+                            </div>
+                            <div>&nbsp;</div>
+                           
+                            
+        </div>
+                           
+                        </div>
+                 
+               </div>
+        
+                <div class="row footer">
+                    <div class="col-lg-4">
+                        <fieldset>
+                            <legend class="Underline" style="border-bottom:none;">
+                                <span id="lblcontactUs" class="footerTitle" style="color:#fff">Contact Us ↓</span>
+                            </legend>
+                            <div>
+                             <p><img alt="" src="/File/8810/Contact Us.png" style="height:115px; width:160px" /></p>
+        
+        <p>&nbsp;</p>
+        
+        <p><span style="font-size:12px"><strong>DAV Public School Kusmunda</strong><br />
+        SECL Adarsh Nagar,<br />
+        Kusmunda, Korba,<br />
+        Chhattisgarh-495454<br />
+        <strong>Phone:</strong><br />
+        <strong>E-Mail:&nbsp;</strong>davksminfo@gmail.com</span><br />
+        <span style="font-size:12px"><strong>Website:&nbsp;</strong>www.davkusmunda.org</span></p>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-lg-3">
+                        <fieldset>
+                            <legend class="Underline" style="border-bottom:none;">
+                                <span id="lblqquicklinks" class="footerTitle" style="color:#fff">Quick Links ↓</span>
+                            </legend>
+                            <div>
+                             
+        <div style="height:250px; overflow:auto;"  class="jScrollbar" id="boxscroll2" >
+        
+                
+                    <div>
+                        <a href='/BA699C87-5EDB-4959-847A-AAEE41007C75/CMS/Page/Contact-Us' target='_self'>
+                            CONTACT US
+                        </a>
+                    </div>
+                    
+                        <div style="height:2px; border-bottom:1px dashed #FF2727; margin-bottom:2px; margin-top:2px;">
+                            &nbsp;
+                        </div>
+                    
+                    <div>
+                        <a href='/Feedback' target='_self'>
+                            FEEDBACK
+                        </a>
+                    </div>
+                    
+                        <div style="height:2px; border-bottom:1px dashed #FF2727; margin-bottom:2px; margin-top:2px;">
+                            &nbsp;
+                        </div>
+                    
+                    <div>
+                        <a href='/Full/Photo/all' target='_self'>
+                            PHOTO GALLERY
+                        </a>
+                    </div>
+                    
+                        <div style="height:2px; border-bottom:1px dashed #FF2727; margin-bottom:2px; margin-top:2px;">
+                            &nbsp;
+                        </div>
+                    
+                    <div>
+                        <a href='/File/8810/gen.pdf' target='_blank'>
+                            GENERAL RULES
+                        </a>
+                    </div>
+                    
+                        <div style="height:2px; border-bottom:1px dashed #FF2727; margin-bottom:2px; margin-top:2px;">
+                            &nbsp;
+                        </div>
+                    
+                    <div>
+                        <a href='/5F6119C0-E60F-4D3A-8996-496CF7C8D498/CMS/Page/Vision-and-Mission' target='_blank'>
+                            VISION AND MISSION
+                        </a>
+                    </div>
+                    
+                        <div style="height:2px; border-bottom:1px dashed #FF2727; margin-bottom:2px; margin-top:2px;">
+                            &nbsp;
+                        </div>
+                    
+                    <div>
+                        <a href='/Assignment' target='_self'>
+                            ASSIGNMENT
+                        </a>
+                    </div>
+                    
+        </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-lg-4">
+                        <fieldset>
+                            <legend class="Underline" style="border-bottom:none;">
+                                <span id="lblLocation" class="footerTitle" style="color:#fff">Location Map ↓</span>
+                            </legend>
+                            <div>
+                                <iframe width='425px' height='200px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.185886839276!2d82.63467296432144!3d22.346608946860783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda1982b1ec881922!2sDAV%20Public%20School%2C%20Kusmunda!5e0!3m2!1sen!2sin!4v1569488838898!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" ></iframe><br />
+                            </div>
+                        </fieldset>
+                    </div>
+                  
+                       <div class="col-lg-12" style="padding:1px;">
+                        <div class="bottom-header-bar">
+                  
+                        <div class="DavFooterMenu">
+                        More (+)
+                        </div>
+                            <div class="davFooterMenuList">
+                                   
+        <div>
+        <table id="rptdetail" cellspacing="0" style="border-collapse:collapse;">
+          <tr>
+            <td>
+                <div class="footerTopMenu">
+                    <input type="hidden" name="f1$rptdetail$ctl00$id" id="id" value="31" />
+                    <b style="color:#A8F0B6; font-size:9pt; ">
+                        Useful links
+                    </b>
+                    <div style="margin-top:1px;">
+                        
+                                <ul class="footerSubmenu">
+                            
+                                <li><a href='http://cbse.nic.in/' target="_blank">
+                                    CBSE</a></li>
+                            
+                                <li><a href='http://davuniversity.org/' target="_blank">
+                                    DAV UNIVERSITY</a></li>
+                            
+                                </ul>
+                            
+                    </div>
+                </div>
+            </td><td>
+                <div class="footerTopMenu">
+                    <input type="hidden" name="f1$rptdetail$ctl02$id" id="id" value="33" />
+                    <b style="color:#A8F0B6; font-size:9pt; ">
+                        DAVCAE
+                    </b>
+                    <div style="margin-top:1px;">
+                        
+                                <ul class="footerSubmenu">
+                            
+                                <li><a href='http://davcae.net.in/' target="_blank">
+                                    DAVCAE</a></li>
+                            
+                                <li><a href='http://oly.davcmc.in' target="_blank">
+                                    OLYMPIAD</a></li>
+                            
+                                <li><a href='http://davsocialapp.mivclient.org/' target="_blank">
+                                    INTELLECTUAL HUB</a></li>
+                            
+                                <li><a href='http://davcae.net.in/' target="_blank">
+                                    EVALUATION PROFORMA</a></li>
+                            
+                                </ul>
+                            
+                    </div>
+                </div>
+            </td><td>
+                <div class="footerTopMenu">
+                    <input type="hidden" name="f1$rptdetail$ctl03$id" id="id" value="35" />
+                    <b style="color:#A8F0B6; font-size:9pt; ">
+                        
+                    </b>
+                    <div style="margin-top:1px;">
+                        
+                    </div>
+                </div>
+            </td><td>
+                <div class="footerTopMenu">
+                    <input type="hidden" name="f1$rptdetail$ctl04$id" id="id" value="37" />
+                    <b style="color:#A8F0B6; font-size:9pt; ">
+                        DAVCMC
+                    </b>
+                    <div style="margin-top:1px;">
+                        
+                                <ul class="footerSubmenu">
+                            
+                                <li><a href='https://110.172.140.75:90/accounts2015/login.aspx' target="_blank">
+                                    BUDGET & SALARY</a></li>
+                            
+                                <li><a href='https://110.172.140.75:84/Login/Login' target="_blank">
+                                    PROVIDENT FUND SCHOOL</a></li>
+                            
+                                <li><a href='https://110.172.140.75:542/' target="_blank">
+                                    VEHICLE MANAGEMENT</a></li>
+                            
+                                <li><a href='http://cm.davcmc.in/' target="_blank">
+                                    ONLINE COMMUNICATION</a></li>
+                            
+                                </ul>
+                            
+                    </div>
+                </div>
+            </td>
+          </tr><tr>
+            <td>
+                <div class="footerTopMenu">
+                    <input type="hidden" name="f1$rptdetail$ctl01$id" id="id" value="32" />
+                    <b style="color:#A8F0B6; font-size:9pt; ">
+                        
+                    </b>
+                    <div style="margin-top:1px;">
+                        
+                    </div>
+                </div>
+            </td><td></td><td></td><td></td>
+          </tr>
+        </table>
+        </div>        
+                            </div>
+                                 
+                        
+                    </div>
+                    </div>
+        
+                      <div class="col-lg-12" style="background-color:#F8082E; border-top:1px solid #FF001F; padding:0px; line-height:28px; height:30px; color:#fff;">
+                        <div>
+                          &nbsp; &copy; <script> document.write(new Date().getFullYear())</script> DAV PUBLIC SCHOOL, KUSMUNDA (CHHATTISGARH). All Rights Reserved.
+                        </div>
+                        
+                    </div>
+                 
+                </div>
+            </div>
+            
+        <script type='text/javascript'>new Sys.WebForms.Menu({ element: 'Menu1', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
+        </body>
+        </html>
+        </label
+      > 
+
+      </xmp>
+
       <input
         type="email"
         class="form-control"
@@ -42,7 +1229,8 @@
         style="font-family: 'Kalam', cursive"
       />
     </div>
-    <div class="mb-3">
+
+    <!-- <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label"
         >Example textarea</label
       >
@@ -52,7 +1240,7 @@
         style="font-family: 'Kalam', cursive"
         rows="3"
       ></textarea>
-    </div>
+    </div> -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
